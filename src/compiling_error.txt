@@ -1,2 +1,0 @@
-/home/woomabt/ros_course_ws/src/lookahead/src/straight.cpp:1:21: fatal error: ros/ros.h: No such file or directory
-compilation terminated.

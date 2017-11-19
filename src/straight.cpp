@@ -43,7 +43,8 @@ void poseCallback(const turtlesim::Pose::ConstPtr & msg);
     msg.angular.z = 0.1;
     pub.publish(msg);
 
-cout<<"Send command:"<<" linear="<<msg.linear.x<<" angular="<<msg.angular.z<< "/nrobot x: "<<xr<<"robot y: " << yr<<"looking i direction: "<<ir*180/PI <<endl;
+cout<<"Send command:"<<" linear="<<msg.linear.x<<" angular="<<msg.angular.z<<
+"/nrobot x: "<<xr<<"robot y: " << yr<<"looking i direction: "<<ir*180/PI <<endl;
 ros::spinOnce();
 }
 
